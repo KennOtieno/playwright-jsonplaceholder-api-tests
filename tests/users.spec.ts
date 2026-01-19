@@ -9,7 +9,7 @@ test('Status code is 200', async ({ request }) => {
 
 // The next test entails figuring out if the response is an array and if the array length is 10
 
-test('Response is an array with a length of 100', async ({ request}) => {
+test('Response is an array with a length of 10', async ({ request}) => {
 
 
   const response = await request.get('https://jsonplaceholder.typicode.com/users');
